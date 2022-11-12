@@ -7,6 +7,7 @@ public class ToBinary {
 	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);
+		
 		System.out.println("enter decimal number : ");
 		int n = scanner.nextInt();
 		toBinary(n);

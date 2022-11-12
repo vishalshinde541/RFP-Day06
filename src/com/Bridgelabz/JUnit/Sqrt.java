@@ -7,6 +7,7 @@ public class Sqrt {
 	static Scanner scanner = new Scanner(System.in);
 
 	public static void main(String[] args) {
+
 		System.out.println("enter number to find sqrt");
 		int n = scanner.nextInt();
 		System.out.println("sqrt = " + sqrt(n));

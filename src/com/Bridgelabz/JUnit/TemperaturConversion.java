@@ -7,6 +7,7 @@ public class TemperaturConversion {
 	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);
+		
 		System.out.println("Enter the value of Temprature :\ntemp :");
 		int temp = scanner.nextInt();
 		System.out.println("select option: \n1.Celsius to Fahrenheit \n2.Fahrenheit to Celsius");

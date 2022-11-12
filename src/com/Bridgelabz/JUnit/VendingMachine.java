@@ -24,6 +24,7 @@ public class VendingMachine {
 			int[] notes = { 1000, 500, 100, 50, 10, 5, 2, 1 };
 
 			Scanner scan = new Scanner(System.in);
+			
 			System.out.println("Enter the change in Rs to be returned : ");
 			int changeAmount = scan.nextInt();
 

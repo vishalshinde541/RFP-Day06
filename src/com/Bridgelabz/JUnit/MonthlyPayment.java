@@ -9,6 +9,7 @@ public class MonthlyPayment {
 		double p, y, r;
 
 		Scanner scanner = new Scanner(System.in);
+		
 		System.out.print("Enter loan amount : ");
 		p = scanner.nextInt();
 		System.out.print("years to pay ");
